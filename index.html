@@ -23,9 +23,27 @@
                 <a href="#">Кино на заказ</a>
             </div>
             <div class="header_auth">
-                <a href="#">Личный кабинет</a>
+                <a href="#" id="open_pop_up">Личный кабинет</a>
+            </div>
+            <div class="pop_up" id="pop_up">
+                <div class="pop_up_container">
+                    <div class="pop_up_body" id="pop_up_body">
+                        <h1>Личный кабинет</h1>
+                        <div class="pop_login">
+                            <p>Логин</p>
+                            <input type="text" placeholder="example@gmail.com">
+                            <p>Пароль</p>
+                            <input type="password" placeholder="example">
+                        </div>
+                        <div class="btn_cab">
+                            <button>Вход</button>
+                        </div>
+                        <div class="pop_up_close" id="close_pop_up">&#10006</div>
+                    </div>
+                </div>
             </div>
         </div>
+        <script src="./src/scripts/popup.js"></script>
     </header>
     <main>
         <div class="swiper_bunner">
